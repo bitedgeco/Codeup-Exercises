@@ -13,7 +13,6 @@ $address = '123 Any Street';
 
 echo "$lastName, $firstName, $address\n";
 
-echo "$firstName$lastName$address\n";
+echo "{$firstName} {$lastName} {$address}\n";
 
-echo "$firstName$ lastName$
-$address\n";
+echo "$firstName $lastName $address\n";

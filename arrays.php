@@ -6,11 +6,11 @@ $names =[
 	'harry'
 ];
 
-// echo $names[1] .PHP_EOL;
+echo $names[1] .PHP_EOL;
 
-// var_dump($names[1]);
+var_dump($names[1]);
 
-// var_dump($names);
+var_dump($names);
 
 $numbers1 = array(6, 7, 8, 9, 10);
 
@@ -22,22 +22,22 @@ $numbers2 =[
 	5
 ];
 
-// var_dump($numbers1);
+var_dump($numbers1);
 
-// print_r($numbers1);
+print_r($numbers1);
 
-// echo $numbers2[3];
+echo $numbers2[3];
 
-$person = [
+$associatiive = [
 	'first_name' => 'John',
 	'last_name' => 'Doe',
 	'email' => 'doe@gmail.com',
 	'phone' => 12345678
 ];
 
-// var_dump($associatiive); 
+var_dump($associatiive); 
 
-// echo $associatiive['first_name'];
+echo $associatiive['first_name'] .PHP_EOL;;
 
 $test = [
 	'person1' => [
@@ -60,7 +60,7 @@ $test = [
 	]
 ];
 
-// var_dump($test); 
+var_dump($test); 
 
 echo $test['person3']['email'];
 
